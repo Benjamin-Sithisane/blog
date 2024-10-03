@@ -49,7 +49,7 @@ export default function Header() {
   };
 
   return (
-    <Navbar className="fixed z-40 w-full shadow-sm">
+    <Navbar className="fixed z-40 w-full shadow-lg">
         <Link to="/" className='self-center whitespace-nowrap text-sm 
         sm:text-xl font-semibold dark:text-white'>
             <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 
@@ -64,7 +64,7 @@ export default function Header() {
                 type="text" 
                 placeholder="Search..." 
                 rightIcon={AiOutlineSearch}
-                className="inline" 
+                className="inline max-sm:hidden" 
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
             />

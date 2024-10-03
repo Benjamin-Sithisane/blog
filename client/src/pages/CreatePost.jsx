@@ -75,7 +75,6 @@ export default function CreatePost() {
                 navigate(`/post/${data.slug}`)
             }
 
-            console.log(formData)
         } catch (error) {
             setPublishError('Something went wrong')
         }

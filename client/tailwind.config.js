@@ -11,7 +11,7 @@ export default {
     extend: {
       spacing:{
         'bigo': '32rem',
-      }
+      },
     },
   },
   plugins: [

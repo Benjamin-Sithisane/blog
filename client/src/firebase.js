@@ -9,7 +9,7 @@ import { initializeApp } from "firebase/app";
 const firebaseConfig = {
   /* import.meta.env.VITE_FIREBASE_API_KEY, 
   Unsure why API KEY is coming invalid when passed as a variable. 
-  But when I leave it as it is-it works just fine.*/
+  But when I leave it as it is-it works just fine. works in production*/
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_AUTH_DOMAIN,
   projectId: import.meta.env.VITE_PROJECT_ID,

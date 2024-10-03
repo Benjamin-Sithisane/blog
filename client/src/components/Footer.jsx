@@ -46,10 +46,8 @@ export default function FooterCom() {
             <div>
               <Footer.Title title='Legal' />
               <Footer.LinkGroup col>
-                <Link to='/privacy'>
-                  <Footer.Link>Privacy Policy</Footer.Link>
-                </Link>
-                <Footer.Link href='#'>Terms &amp; Conditions</Footer.Link>
+                  <Footer.Link href='/privacy'>Privacy Policy</Footer.Link>
+                  <Footer.Link href='#'>Terms &amp; Conditions</Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>

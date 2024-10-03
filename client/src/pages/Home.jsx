@@ -16,10 +16,10 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <div className='flex items-center gap-6 p-28 px-23 max-w-6xl min-h-bigo'>
+      <div className='flex items-center gap-6 md:p-28 md:px-23 max-w-6xl min-h-bigo'>
         <div className='flex flex-col gap-1'>
-          <h1 className='text-3xl font-bold lg:text-6xl mb-3'>Welcome to my Blog</h1>
-          <p className='text-gray-500 text-xs sm:text-sm mb-2'>
+          <h1 className='text-3xl max-sm:px-3 font-bold lg:text-6xl mb-3'>Welcome to Big Blogger</h1>
+          <p className='text-gray-500 text-xs max-sm:px-3 sm:text-sm mb-2'>
             Posuere consectetur proin convallis ad lacus dictum nascetur nostra. 
             Purus metus maximus massa ut; ligula condimentum pretium elit. Pulvinar 
             dictum hendrerit convallis ac sed amet? Lacus ullamcorper fusce; facilisi 
@@ -28,12 +28,6 @@ export default function Home() {
             Ac viverra nam elementum gravida eleifend odio accumsan vel. Platea ad aliquam 
             pharetra libero gravida ex.
           </p>
-          <Link
-            to='/search'
-            className='text-xs sm:text-sm text-blue-600 dark:text-gray-400 font-bold hover:underline a'
-          >
-            View all posts
-          </Link>
         </div>
       </div>
       <div className='p-3 bg-amber-100 dark:bg-slate-700'>
